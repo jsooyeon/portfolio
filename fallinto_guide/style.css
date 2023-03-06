@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+a{
+    text-decoration: none;
+    color: #fff;
+}
+
+img{
+    display: block;
+    margin: 0 auto;
+}
+
+.top{
+    position: fixed;
+    right: 100px;
+    bottom: 150px;
+    background-color: #898d8f;
+	display: inline-block;
+	padding: 10px;
+	border-radius: 5px;
+}
+
+.home{
+    position: fixed;
+    right: 100px;
+    bottom: 100px;
+    background-color: #898d8f;
+	display: inline-block;
+	padding: 10px;
+	border-radius: 5px;
+}
+
+.bi{
+background-color: #f9dedb;
+}
+
+.web{
+    background-color: #fcf1d9;
+}
