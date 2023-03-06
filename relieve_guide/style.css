@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+a{
+    text-decoration: none;
+}
+
+img{
+    display: block;
+    margin: 0 auto;
+}
+
+a img{
+    width: 80px;
+}
+.top{
+    position: fixed;
+    right: 100px;
+    bottom: 200px;
+}
+
+.home{
+    position: fixed;
+    right: 100px;
+    bottom: 100px;
+}
+
+.bi{
+background-color: #f9dedb;
+}
+
+.web{
+    background-color: #fcf1d9;
+}
