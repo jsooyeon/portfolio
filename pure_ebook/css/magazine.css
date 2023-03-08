@@ -27,7 +27,7 @@ body {
 	background-color: #fcfcfc;
 	margin: 0;
 	padding: 0;
-	background: url(../bx_bg-10.png);
+	background: #d7e4f5;
 }
 
 .magazine-viewport .container {
@@ -40,7 +40,7 @@ body {
 }
 
 .magazine-viewport .magazine {
-	width: 1366px;
+	width: 1320px;
 	height: 600px;
 	left: -461px;
 	top: -300px;
