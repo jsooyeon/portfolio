@@ -11,6 +11,13 @@
     font-style: normal;
 }
 
+@font-face {
+    font-family: 'Pretendard-Regular';
+    src: url('https://fastly.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff') format('woff');
+    font-weight: 400;
+    font-style: normal;
+}
+
 /*
 * Resume template
 * Created by : Ahmed Essa
@@ -56,16 +63,22 @@ h1 {
     line-height: 70px;
 }
 
+.table-cell h1, .table-cell h4{
+    font-family: 'Pretendard-Regular';
+    font-weight: 300;
+    
+}
+
 #home h1{
     line-height: 90px;
-    color: #eacf2e;
+    color: #ffffff;
     text-shadow: #5c4b42 3px 3px 2px;
 }
 
 #home h4{
     font-size: 40px;
     font-weight: 500;
-    color: #eacf2e;
+    color: #fff;
     margin-left: 0;
 }
 
@@ -351,7 +364,6 @@ a.active {
 .about-border {
     position: absolute;
     border: 10px solid #97c5d0;
-border-radius: 20% 0 20% 0;
     width: 400px;
     height: 400px;
     top: 40px;
