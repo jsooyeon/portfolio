@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: #333;
+}
+
+body {
+    font-family: '나눔고딕';
+    font-size: 14px;
+    line-height: 26px;
+    color: #333;
+    min-width: 1320px;
+}
+
+video {
+    display: block;
+    width: 1000px;
+    margin: 0 auto;
+}
+
+h1{
+margin-bottom: 20px;
+text-align: center;
+}
+
+#video1, #video2{
+    margin : 100px auto 300px;
+}
+
+h4{
+    text-align: center;
+}
