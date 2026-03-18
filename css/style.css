@@ -1,8 +1,8 @@
 @font-face {
-    font-family: 'KyoboHandwriting2020A';
-    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2112@1.0/KyoboHandwriting2020A.woff') format('woff');
+    font-family: 'IsYun';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2202-2@1.0/LeeSeoyun.woff') format('woff');
     font-weight: normal;
-    font-style: normal;
+    font-display: swap;
 }
 @font-face {
     font-family: 'SUIT-Regular';
@@ -57,11 +57,12 @@ font-family: 'Open Sans', sans-serif;
 /* typography
 ==================================================*/
 
-h1 {
-    font-family: 'KyoboHandwriting2020A';
-    font-size: 80px;
-    line-height: 70px;
+h4 b{
+    font-family: 'IsYun';
+    font-size: 60px;
+    line-height: 80px;
 }
+
 
 .table-cell h1, .table-cell h4{
     font-family: 'Pretendard-Regular';
@@ -69,7 +70,7 @@ h1 {
     
 }
 
-#home h1{
+#home h4 b{
     line-height: 90px;
     color: #ffffff;
     text-shadow: #5c4b42 3px 3px 2px;
@@ -363,7 +364,7 @@ a.active {
 
 .about-border {
     position: absolute;
-    border: 10px solid #97c5d0;
+    border: 10px solid #d67ea8;
     width: 400px;
     height: 400px;
     top: 40px;
@@ -431,7 +432,7 @@ a.active {
 }
 
 .portfolio .categories-grid .categories ul li a.active {
-    background-color: #425BB5;
+    background-color: #d67ea8
     padding: 0px 20px;
     color: white;
     text-decoration: none;
