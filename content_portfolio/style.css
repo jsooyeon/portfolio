@@ -9,7 +9,7 @@ a{
 
 img{
     display: block;
-    margin: 0 auto 30px;
+    margin: auto;
     width: 1200px;
 }
 
@@ -26,8 +26,4 @@ a img{
     position: fixed;
     right: 100px;
     bottom: 100px;
-}
-
-.bi{
-background-color: #f9dedb;
 }
